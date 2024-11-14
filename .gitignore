@@ -1,0 +1,73 @@
+# Java specific ignores
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific ignores
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific ignores
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+.gradle-cache/
+**/build/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse specific ignores
+.settings/
+.project
+.classpath
+
+# VS Code specific ignores
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific ignores
+*.log
+*.pid
+*.gz
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Spring Boot application config
+application.yml
+application-*.yml
+application.properties
+application-*.properties
+
+# Environment variable files
+.env
+.env.*
+
+# Local cache files
+*.swp
+*.swo
+*.bak
+
+# Database files
+*.db
+*.mv.db
+*.h2.db
+*.trace.db
